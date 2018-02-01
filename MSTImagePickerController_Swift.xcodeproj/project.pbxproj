@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2185AC1FF3741B0011F612 /* MSTAssetBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2185AB1FF3741B0011F612 /* MSTAssetBaseModel.swift */; };
+		AD2320211FDE71E20064E97D /* MSTImagePickerEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2320201FDE71E20064E97D /* MSTImagePickerEnumeration.swift */; };
+		AD3745321FF32DF4008A7052 /* MSTMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3745311FF32DF4008A7052 /* MSTMoment.swift */; };
+		AD3745341FF32EE4008A7052 /* UIViewControllerMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3745331FF32EE4008A7052 /* UIViewControllerMST.swift */; };
+		AD3745371FF33967008A7052 /* MSTImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD3745391FF33967008A7052 /* MSTImagePicker.strings */; };
+		AD37453E1FF34F47008A7052 /* MSTPhotoGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37453D1FF34F47008A7052 /* MSTPhotoGridCell.swift */; };
+		AD3745401FF34F6F008A7052 /* MSTPhotoGridHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37453F1FF34F6F008A7052 /* MSTPhotoGridHeaderView.swift */; };
+		AD6B2A151FF1ECEE0099F109 /* MSTAlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6B2A141FF1ECEE0099F109 /* MSTAlbumListController.swift */; };
+		AD6B2A171FF1ED0B0099F109 /* MSTPhotoGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6B2A161FF1ED0B0099F109 /* MSTPhotoGridController.swift */; };
+		AD6B2A191FF22C520099F109 /* MSTAlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6B2A181FF22C520099F109 /* MSTAlbumListCell.swift */; };
+		AD6B2A1B1FF240000099F109 /* MSTAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6B2A1A1FF240000099F109 /* MSTAssets.xcassets */; };
 		AD7CFA8A1FDE662D005A7917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFA891FDE662D005A7917 /* AppDelegate.swift */; };
 		AD7CFA8C1FDE662D005A7917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFA8B1FDE662D005A7917 /* ViewController.swift */; };
 		AD7CFA8F1FDE662D005A7917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7CFA8D1FDE662D005A7917 /* Main.storyboard */; };
 		AD7CFA911FDE662D005A7917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7CFA901FDE662D005A7917 /* Assets.xcassets */; };
 		AD7CFA941FDE662D005A7917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7CFA921FDE662D005A7917 /* LaunchScreen.storyboard */; };
+		AD7CFAA31FDE6723005A7917 /* MSTImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAA21FDE6723005A7917 /* MSTImagePickerController.swift */; };
+		AD7CFAA51FDE6862005A7917 /* MSTPhotoConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAA41FDE6862005A7917 /* MSTPhotoConfiguration.swift */; };
+		AD7CFAB11FDE68A8005A7917 /* MSTTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAA81FDE68A8005A7917 /* MSTTools.swift */; };
+		AD7CFAB21FDE68A8005A7917 /* UIImageMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAAA1FDE68A8005A7917 /* UIImageMST.swift */; };
+		AD7CFAB31FDE68A8005A7917 /* UILabelMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAAB1FDE68A8005A7917 /* UILabelMST.swift */; };
+		AD7CFAB41FDE68A8005A7917 /* NumberMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAAC1FDE68A8005A7917 /* NumberMST.swift */; };
+		AD7CFAB51FDE68A8005A7917 /* UIButtonMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAAD1FDE68A8005A7917 /* UIButtonMST.swift */; };
+		AD7CFAB61FDE68A8005A7917 /* UIViewMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAAE1FDE68A8005A7917 /* UIViewMST.swift */; };
+		AD7CFAB71FDE68A8005A7917 /* UIColorMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAAF1FDE68A8005A7917 /* UIColorMST.swift */; };
+		AD7CFAB81FDE68A8005A7917 /* StringMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CFAB01FDE68A8005A7917 /* StringMST.swift */; };
+		ADBB84791FE10D7B00C733C1 /* MSTPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB84781FE10D7B00C733C1 /* MSTPhotoManager.swift */; };
+		ADBB847B1FE1149000C733C1 /* MSTAlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB847A1FE1149000C733C1 /* MSTAlbumModel.swift */; };
+		ADBB847D1FE1260200C733C1 /* MSTAssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB847C1FE1260200C733C1 /* MSTAssetModel.swift */; };
+		ADE4EF751FF48F6F008F7285 /* MSTAssetsPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4EF741FF48F6F008F7285 /* MSTAssetsPool.swift */; };
+		ADE4EF771FF49275008F7285 /* MSTConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4EF761FF49275008F7285 /* MSTConst.swift */; };
+		ADE4EF8E1FF4C1DB008F7285 /* MSTPhotoPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4EF8D1FF4C1DB008F7285 /* MSTPhotoPreviewController.swift */; };
+		ADEF11111FFCB4B600F5889A /* MSTCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF11101FFCB4B600F5889A /* MSTCameraView.swift */; };
+		ADFF13251FFF67CF00BD6C9A /* MSTPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF13241FFF67CF00BD6C9A /* MSTPhotoBrowser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD2185AB1FF3741B0011F612 /* MSTAssetBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTAssetBaseModel.swift; sourceTree = "<group>"; };
+		AD2320201FDE71E20064E97D /* MSTImagePickerEnumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTImagePickerEnumeration.swift; sourceTree = "<group>"; };
+		AD3745311FF32DF4008A7052 /* MSTMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTMoment.swift; sourceTree = "<group>"; };
+		AD3745331FF32EE4008A7052 /* UIViewControllerMST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerMST.swift; sourceTree = "<group>"; };
+		AD3745381FF33967008A7052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MSTImagePicker.strings; sourceTree = "<group>"; };
+		AD37453A1FF33985008A7052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/MSTImagePicker.strings; sourceTree = "<group>"; };
+		AD37453C1FF33A8A008A7052 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MSTImagePicker.strings"; sourceTree = "<group>"; };
+		AD37453D1FF34F47008A7052 /* MSTPhotoGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTPhotoGridCell.swift; sourceTree = "<group>"; };
+		AD37453F1FF34F6F008A7052 /* MSTPhotoGridHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTPhotoGridHeaderView.swift; sourceTree = "<group>"; };
+		AD6B2A141FF1ECEE0099F109 /* MSTAlbumListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTAlbumListController.swift; sourceTree = "<group>"; };
+		AD6B2A161FF1ED0B0099F109 /* MSTPhotoGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTPhotoGridController.swift; sourceTree = "<group>"; };
+		AD6B2A181FF22C520099F109 /* MSTAlbumListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTAlbumListCell.swift; sourceTree = "<group>"; };
+		AD6B2A1A1FF240000099F109 /* MSTAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MSTAssets.xcassets; sourceTree = "<group>"; };
 		AD7CFA861FDE662D005A7917 /* MSTImagePickerController_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSTImagePickerController_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7CFA891FDE662D005A7917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7CFA8B1FDE662D005A7917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +64,24 @@
 		AD7CFA901FDE662D005A7917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD7CFA931FDE662D005A7917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD7CFA951FDE662D005A7917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7CFAA21FDE6723005A7917 /* MSTImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTImagePickerController.swift; sourceTree = "<group>"; };
+		AD7CFAA41FDE6862005A7917 /* MSTPhotoConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTPhotoConfiguration.swift; sourceTree = "<group>"; };
+		AD7CFAA81FDE68A8005A7917 /* MSTTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSTTools.swift; sourceTree = "<group>"; };
+		AD7CFAAA1FDE68A8005A7917 /* UIImageMST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageMST.swift; sourceTree = "<group>"; };
+		AD7CFAAB1FDE68A8005A7917 /* UILabelMST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelMST.swift; sourceTree = "<group>"; };
+		AD7CFAAC1FDE68A8005A7917 /* NumberMST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberMST.swift; sourceTree = "<group>"; };
+		AD7CFAAD1FDE68A8005A7917 /* UIButtonMST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonMST.swift; sourceTree = "<group>"; };
+		AD7CFAAE1FDE68A8005A7917 /* UIViewMST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewMST.swift; sourceTree = "<group>"; };
+		AD7CFAAF1FDE68A8005A7917 /* UIColorMST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorMST.swift; sourceTree = "<group>"; };
+		AD7CFAB01FDE68A8005A7917 /* StringMST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMST.swift; sourceTree = "<group>"; };
+		ADBB84781FE10D7B00C733C1 /* MSTPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTPhotoManager.swift; sourceTree = "<group>"; };
+		ADBB847A1FE1149000C733C1 /* MSTAlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTAlbumModel.swift; sourceTree = "<group>"; };
+		ADBB847C1FE1260200C733C1 /* MSTAssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTAssetModel.swift; sourceTree = "<group>"; };
+		ADE4EF741FF48F6F008F7285 /* MSTAssetsPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTAssetsPool.swift; sourceTree = "<group>"; };
+		ADE4EF761FF49275008F7285 /* MSTConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTConst.swift; sourceTree = "<group>"; };
+		ADE4EF8D1FF4C1DB008F7285 /* MSTPhotoPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTPhotoPreviewController.swift; sourceTree = "<group>"; };
+		ADEF11101FFCB4B600F5889A /* MSTCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTCameraView.swift; sourceTree = "<group>"; };
+		ADFF13241FFF67CF00BD6C9A /* MSTPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSTPhotoBrowser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD33DAF21FE0C719008D86D2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFA8B1FDE662D005A7917 /* ViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		AD7CFA7D1FDE662D005A7917 = {
 			isa = PBXGroup;
 			children = (
@@ -55,13 +123,138 @@
 			isa = PBXGroup;
 			children = (
 				AD7CFA891FDE662D005A7917 /* AppDelegate.swift */,
-				AD7CFA8B1FDE662D005A7917 /* ViewController.swift */,
+				AD7CFA9B1FDE66B7005A7917 /* MSTImageController_Swift */,
+				AD33DAF21FE0C719008D86D2 /* Demo */,
+				AD7CFAA11FDE66C5005A7917 /* Support */,
+			);
+			path = MSTImagePickerController_Swift;
+			sourceTree = "<group>";
+		};
+		AD7CFA9B1FDE66B7005A7917 /* MSTImageController_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFA9C1FDE66B7005A7917 /* Resources */,
+				AD7CFA9D1FDE66B7005A7917 /* Utils */,
+				AD7CFA9E1FDE66B7005A7917 /* Controller */,
+				AD7CFA9F1FDE66B7005A7917 /* Model */,
+				AD7CFAA01FDE66B7005A7917 /* View */,
+			);
+			path = MSTImageController_Swift;
+			sourceTree = "<group>";
+		};
+		AD7CFA9C1FDE66B7005A7917 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD6B2A1A1FF240000099F109 /* MSTAssets.xcassets */,
+				AD3745391FF33967008A7052 /* MSTImagePicker.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD7CFA9D1FDE66B7005A7917 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFAA61FDE68A8005A7917 /* MSTTools_Swift */,
+				ADFF13221FFF67CF00BD6C9A /* MSTPhotoBrowser */,
+				AD2320201FDE71E20064E97D /* MSTImagePickerEnumeration.swift */,
+				ADBB84781FE10D7B00C733C1 /* MSTPhotoManager.swift */,
+				ADE4EF761FF49275008F7285 /* MSTConst.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AD7CFA9E1FDE66B7005A7917 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFAA21FDE6723005A7917 /* MSTImagePickerController.swift */,
+				AD6B2A141FF1ECEE0099F109 /* MSTAlbumListController.swift */,
+				AD6B2A161FF1ED0B0099F109 /* MSTPhotoGridController.swift */,
+				ADE4EF8D1FF4C1DB008F7285 /* MSTPhotoPreviewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD7CFA9F1FDE66B7005A7917 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFAA41FDE6862005A7917 /* MSTPhotoConfiguration.swift */,
+				ADE4EF741FF48F6F008F7285 /* MSTAssetsPool.swift */,
+				ADBB847A1FE1149000C733C1 /* MSTAlbumModel.swift */,
+				AD2185AB1FF3741B0011F612 /* MSTAssetBaseModel.swift */,
+				ADBB847C1FE1260200C733C1 /* MSTAssetModel.swift */,
+				AD3745311FF32DF4008A7052 /* MSTMoment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD7CFAA01FDE66B7005A7917 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD6B2A181FF22C520099F109 /* MSTAlbumListCell.swift */,
+				AD37453D1FF34F47008A7052 /* MSTPhotoGridCell.swift */,
+				ADEF11101FFCB4B600F5889A /* MSTCameraView.swift */,
+				AD37453F1FF34F6F008A7052 /* MSTPhotoGridHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD7CFAA11FDE66C5005A7917 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				AD7CFA8D1FDE662D005A7917 /* Main.storyboard */,
 				AD7CFA901FDE662D005A7917 /* Assets.xcassets */,
 				AD7CFA921FDE662D005A7917 /* LaunchScreen.storyboard */,
 				AD7CFA951FDE662D005A7917 /* Info.plist */,
 			);
-			path = MSTImagePickerController_Swift;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		AD7CFAA61FDE68A8005A7917 /* MSTTools_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFAA71FDE68A8005A7917 /* Tools */,
+				AD7CFAA91FDE68A8005A7917 /* Categories */,
+			);
+			path = MSTTools_Swift;
+			sourceTree = "<group>";
+		};
+		AD7CFAA71FDE68A8005A7917 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFAA81FDE68A8005A7917 /* MSTTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AD7CFAA91FDE68A8005A7917 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AD7CFAAA1FDE68A8005A7917 /* UIImageMST.swift */,
+				AD7CFAAB1FDE68A8005A7917 /* UILabelMST.swift */,
+				AD7CFAAC1FDE68A8005A7917 /* NumberMST.swift */,
+				AD7CFAAD1FDE68A8005A7917 /* UIButtonMST.swift */,
+				AD7CFAAE1FDE68A8005A7917 /* UIViewMST.swift */,
+				AD7CFAAF1FDE68A8005A7917 /* UIColorMST.swift */,
+				AD7CFAB01FDE68A8005A7917 /* StringMST.swift */,
+				AD3745331FF32EE4008A7052 /* UIViewControllerMST.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		ADFF13221FFF67CF00BD6C9A /* MSTPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF13231FFF67CF00BD6C9A /* View */,
+			);
+			path = MSTPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		ADFF13231FFF67CF00BD6C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF13241FFF67CF00BD6C9A /* MSTPhotoBrowser.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +300,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = AD7CFA7D1FDE662D005A7917;
 			productRefGroup = AD7CFA871FDE662D005A7917 /* Products */;
@@ -124,6 +318,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7CFA941FDE662D005A7917 /* LaunchScreen.storyboard in Resources */,
+				AD3745371FF33967008A7052 /* MSTImagePicker.strings in Resources */,
+				AD6B2A1B1FF240000099F109 /* MSTAssets.xcassets in Resources */,
 				AD7CFA911FDE662D005A7917 /* Assets.xcassets in Resources */,
 				AD7CFA8F1FDE662D005A7917 /* Main.storyboard in Resources */,
 			);
@@ -136,14 +332,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7CFAB21FDE68A8005A7917 /* UIImageMST.swift in Sources */,
+				AD7CFAB11FDE68A8005A7917 /* MSTTools.swift in Sources */,
+				ADE4EF8E1FF4C1DB008F7285 /* MSTPhotoPreviewController.swift in Sources */,
+				AD7CFAB71FDE68A8005A7917 /* UIColorMST.swift in Sources */,
+				ADBB847D1FE1260200C733C1 /* MSTAssetModel.swift in Sources */,
+				ADE4EF771FF49275008F7285 /* MSTConst.swift in Sources */,
+				AD7CFAA51FDE6862005A7917 /* MSTPhotoConfiguration.swift in Sources */,
+				ADE4EF751FF48F6F008F7285 /* MSTAssetsPool.swift in Sources */,
+				AD6B2A191FF22C520099F109 /* MSTAlbumListCell.swift in Sources */,
+				AD3745321FF32DF4008A7052 /* MSTMoment.swift in Sources */,
 				AD7CFA8C1FDE662D005A7917 /* ViewController.swift in Sources */,
+				ADBB847B1FE1149000C733C1 /* MSTAlbumModel.swift in Sources */,
+				AD6B2A151FF1ECEE0099F109 /* MSTAlbumListController.swift in Sources */,
+				AD7CFAB51FDE68A8005A7917 /* UIButtonMST.swift in Sources */,
+				AD37453E1FF34F47008A7052 /* MSTPhotoGridCell.swift in Sources */,
+				AD7CFAB31FDE68A8005A7917 /* UILabelMST.swift in Sources */,
+				ADBB84791FE10D7B00C733C1 /* MSTPhotoManager.swift in Sources */,
 				AD7CFA8A1FDE662D005A7917 /* AppDelegate.swift in Sources */,
+				AD3745341FF32EE4008A7052 /* UIViewControllerMST.swift in Sources */,
+				ADFF13251FFF67CF00BD6C9A /* MSTPhotoBrowser.swift in Sources */,
+				AD2320211FDE71E20064E97D /* MSTImagePickerEnumeration.swift in Sources */,
+				AD7CFAB61FDE68A8005A7917 /* UIViewMST.swift in Sources */,
+				AD3745401FF34F6F008A7052 /* MSTPhotoGridHeaderView.swift in Sources */,
+				AD7CFAB81FDE68A8005A7917 /* StringMST.swift in Sources */,
+				AD6B2A171FF1ED0B0099F109 /* MSTPhotoGridController.swift in Sources */,
+				AD7CFAA31FDE6723005A7917 /* MSTImagePickerController.swift in Sources */,
+				AD7CFAB41FDE68A8005A7917 /* NumberMST.swift in Sources */,
+				ADEF11111FFCB4B600F5889A /* MSTCameraView.swift in Sources */,
+				AD2185AC1FF3741B0011F612 /* MSTAssetBaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AD3745391FF33967008A7052 /* MSTImagePicker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3745381FF33967008A7052 /* en */,
+				AD37453A1FF33985008A7052 /* Base */,
+				AD37453C1FF33A8A008A7052 /* zh-Hans */,
+			);
+			name = MSTImagePicker.strings;
+			sourceTree = "<group>";
+		};
 		AD7CFA8D1FDE662D005A7917 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,7 +508,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MSTImagePickerController_Swift/Info.plist;
+				DEVELOPMENT_TEAM = B2M4QJR2FL;
+				INFOPLIST_FILE = "$(SRCROOT)/MSTImagePickerController_Swift/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mustard.MSTImagePickerController-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +524,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MSTImagePickerController_Swift/Info.plist;
+				DEVELOPMENT_TEAM = B2M4QJR2FL;
+				INFOPLIST_FILE = "$(SRCROOT)/MSTImagePickerController_Swift/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mustard.MSTImagePickerController-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";

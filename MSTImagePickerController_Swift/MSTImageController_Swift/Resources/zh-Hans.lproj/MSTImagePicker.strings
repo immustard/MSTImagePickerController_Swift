@@ -1,0 +1,20 @@
+/* 
+  MSTImagePicker.strings
+  MSTImagePickerController_Swift
+
+  Created by 张宇豪 on 2017/12/27.
+  Copyright © 2017年 Mustard. All rights reserved.
+*/
+
+"str_confirm" = "确认";
+"str_cancel" = "取消";
+"str_allow_photoLibrary" = "请在设备的\"设置-隐私-相机\"中允许访问相册。";
+"str_photos" = "相册";
+"str_get_to_maximum_selected" = "最多只能选择%zd张照片";
+"str_i_see" = "我知道了";
+"str_preview" = "预览";
+"str_done" = "完成";
+"str_setting" = "设置";
+"str_original" = "原图";
+"str_both_video_photo" = "选择照片时不能选择视频";
+"str_access_photo" = "请在iPhone的\"设置-隐私-照片\"选项中，\r允许%@访问你的手机相册";
